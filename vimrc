@@ -1,1 +1,0 @@
-/home/nir/.vimrc
