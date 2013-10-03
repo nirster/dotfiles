@@ -1,0 +1,6 @@
+#!/bin/sh
+
+( sleep 0.5 && sudo killall -q ranger ) &
+( sleep 1 && sudo pumount /dev/sr0 ) &
+( sleep 1.5 && eject /dev/sr0 ) &
+( sleep 2 && sudo rm -rf /media/Disk ) &

@@ -1,0 +1,9 @@
+#!/bin/sh
+# Toggle PulseAudio output to stereo/surround
+
+if [ -a /home/nir/scripts/current_stereo ]
+then
+        rm /home/nir/scripts/current_stereo && sh /home/nir/scripts/surround
+else
+        touch /home/nir/scripts/current_stereo && sh /home/nir/scripts/stereo
+fi

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo systemctl start pdnsd
+sudo systemctl start polipo
+sudo systemctl start netcfg
+sudo netcfg wireless

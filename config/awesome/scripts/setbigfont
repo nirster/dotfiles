@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sudo rm -rv .Xdefaults
+cp -Rv ~/.Xdefaults_BIG ~/.Xdefaults
+
+sudo rm -rv ~/.config/awesome/rc.lua
+cp -Rv ~/.config/awesome/rc_BIG.lua ~/.config/awesome/rc.lua
+
+sudo rm -rv ~/.config/awesome/themes/colored/theme.lua
+cp -Rv ~/.config/awesome/themes/colored/theme_BIG.lua ~/.config/awesome/themes/colored/theme.lua
+
+sudo rm -rv /usr/share/awesome/lib/naughty.lua
+sudo cp -Rv ~/.config/awesome/naughty_BIG.lua /usr/share/awesome/lib/naughty.lua

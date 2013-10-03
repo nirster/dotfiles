@@ -1,0 +1,13 @@
+browser		        "elinks %u"
+proxy		        localhost:8123
+use-proxy	        yes
+
+datetime-format	    "%d %b"
+notify-beep	        yes
+notify-xterm	    yes
+auto-reload	        yes
+
+color listnormal	default	default
+color listfocus		yellow	default bold
+color info		    blue	default
+color article		default	default

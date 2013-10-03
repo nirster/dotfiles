@@ -1,0 +1,29 @@
+#!/bin/bash
+
+sudo rm -rfv /var/lib/mpd
+sudo rm -rfv /var/log/mpd
+sudo rm -rfv /var/run/mpd
+sudo rm -rfv /etc/mpd.conf
+sudo rm -rfv /tmp/mpd.fifo
+sudo mkdir /var/lib/mpd
+sudo mkdir /var/log/mpd
+sudo mkdir /var/run/mpd
+sudo cp -Rv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/playlists/ /var/lib/mpd/playlists
+sudo cp -Rv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/mpd.db /var/lib/mpd/mpd.db
+sudo cp -Rv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/mpdstate /var/lib/mpd/mpdstate
+sudo cp -Rv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/mpd.log /var/log/mpd/mpd.log
+sudo cp -Rv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/mpd.pid /var/run/mpd/mpd.pid
+sudo cp -Rv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/mpd.conf /etc/mpd.conf
+sudo cp -Rv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/mpd.fifo /tmp/mpd.fifo
+sudo chmod -x /etc/mpd.conf
+sudo chmod -x /var/lib/mpd/mpd*
+sudo chmod -x /var/run/mpd/mpd*
+sudo chmod -x /var/log/mpd/mpd*
+sudo chmod -x /tmp/mpd.fifo
+sudo chown mpd:root /var/lib/mpd/playlists/
+sudo chown mpd:root /var/lib/mpd/playlists/*
+sudo chown mpd:root /var/lib/mpd/mpd.db
+sudo chown mpd:root /var/lib/mpd/mpdstate
+sudo chown mpd:root /var/log/mpd/mpd.log
+sudo chown mpd:root /var/run/mpd/mpd.pid
+sudo chown mpd:root /tmp/mpd.fifo

@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+xsetroot -solid "#000000" -cursor_name left_ptr
+sh .fehbg &
+xrdb -merge /home/xxx/.Xdefaults
+sudo sh ~/.scripts/powerdown &
+remind -z -k'notify-send -u critical %s &' ~/.reminders &
+parcellite &

@@ -1,0 +1,53 @@
+# Highway Slim Theme 1.1
+# Created by Arthur Marino (@ArthurMarino)
+
+# Messages (ie: shutdown)
+msg_color               #4B4B4B
+msg_font                DejaVu Sans:size=12
+msg_x                   50%
+msg_y                   10
+msg_shadow_color #CCCCCC
+msg_shadow_xoffset 1
+msg_shadow_yoffset 1
+
+# valid values: stretch, tile
+background_style        stretch
+background_color        #A1A1A1
+
+# Login Name
+username_font		Droid Sans:size=20
+username_color		#555555
+
+password_x		147
+password_y		60%
+
+username_x		147
+username_y		60%
+
+username_msg		Who Are You?
+password_msg		David Gilmour
+
+# Welcome Message
+welcome_x		149
+welcome_y		34%
+
+welcome_font		DejaVu Sans:size=8
+welcome_color		#555555
+welcome_shadow_xoffset 	1
+welcome_shadow_yoffset 	1
+welcome_shadow_color   	#eae4de
+
+# Input controls
+input_panel_x           25%
+input_panel_y           50%
+
+input_name_x            155
+input_name_y            124
+input_pass_x            155
+input_pass_y            124
+
+input_font              DejaVu Sans:size=8
+input_color		#4B4B4B
+input_shadow_xoffset 	1
+input_shadow_yoffset 	1
+input_shadow_color   	#CCCCCC

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo systemctl start ldm.service &
+( sleep 4 && urxvt -e ranger /media ) &

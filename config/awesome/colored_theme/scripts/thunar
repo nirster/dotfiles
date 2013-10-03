@@ -1,0 +1,12 @@
+#!/bin/bash
+
+thunar
+sudo killall /usr/lib/polkit-1/polkitd
+sudo killall /usr/lib/udisks2/udisksd
+sudo killall /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+sudo killall /usr/lib/gvfs/gvfsd-fuse
+sudo killall /usr/lib/gvfs/gvfsd
+sudo killall /usr/lib/tumbler-1/tumblerd
+sudo killall /usr/lib/xfce4/xfconf/xfconfd
+sudo killall /usr/lib/at-spi2-core/at-spi2-registryd
+sudo killall /usr/lib/at-spi2-core/at-spi-bus-launcher

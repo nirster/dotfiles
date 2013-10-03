@@ -1,0 +1,36 @@
+set adjust-open	            "width"
+set scroll-wrap		    	"false"
+set font                    "Termsyn 14"
+set statusbar-bg            "#080808"
+set statusbar-fg            "#aaaaaa"
+set completion-bg           "#080808"
+set completion-fg           "#bdbdbd"
+set completion-highlight-bg "#080808"
+set completion-highlight-fg "#7791e0"
+set inputbar-bg             "#080808"
+set inputbar-fg             "#aaaaaa"
+set notification-error-bg   "#080808"
+set notification-error-fg   "#74637d"
+set notification-warning-bg "#080808"
+set notification-warning-fg "#3955c4"
+set recolor-darkcolor       "#ffffff"
+set recolor-lightcolor      "#080808"
+set pages-per-row	    	"1"
+set page-padding            "1"
+
+map <PageUp> scroll full-up
+map <PageDown> scroll full-down
+map <S-PageUp> scroll top
+map <S-PageDown> scroll bottom
+map <Space> adjust_window
+map + zoom in
+map - zoom out
+map <F1> set "pages-per-row 1"
+map <F2> set "pages-per-row 2"
+map <F3> adjust_window best-fit
+map <F4> adjust_window width
+map <F11> toggle_fullscreen
+map <Right> navigate next
+map <Left> navigate previous
+map x scroll right
+map z scroll left

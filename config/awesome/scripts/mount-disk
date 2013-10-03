@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo mkdir /media/Disk
+sudo pmount /dev/sr0 /media/Disk
+urxvt -e ranger /media/Disk

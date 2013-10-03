@@ -1,0 +1,327 @@
+#!/bin/bash
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/conf.d
+sudo cp -Rv /etc/conf.d /media/Data/Dropbox/Linux/ArchLinux-Config/etc
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/network.d
+sudo cp -Rv /etc/network.d /media/Data/Dropbox/Linux/ArchLinux-Config/etc
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/pacman.d
+sudo cp -Rv /etc/pacman.d /media/Data/Dropbox/Linux/ArchLinux-Config/etc
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/bitlbee
+sudo cp -Rv /etc/bitlbee /media/Data/Dropbox/Linux/ArchLinux-Config/etc
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/usr/share/awesome
+sudo cp -Rv /usr/share/awesome /media/Data/Dropbox/Linux/ArchLinux-Config/usr/share/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/usr/share/slim/themes
+sudo cp -Rv /usr/share/slim/themes /media/Data/Dropbox/Linux/ArchLinux-Config/usr/share/slim
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/usr/lib/systemd
+sudo cp -Rv /usr/lib/systemd /media/Data/Dropbox/Linux/ArchLinux-Config/usr/lib/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/systemd
+sudo cp -Rv /etc/systemd /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/usr/share/perl5/vendor_perl/auto/share/dist/Cope
+sudo cp -Rv /usr/share/perl5/vendor_perl/auto/share/dist/Cope /media/Data/Dropbox/Linux/ArchLinux-Config/usr/share/perl5/vendor_perl/auto/share/dist
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/default/grub
+sudo cp -Rv /etc/default/grub /media/Data/Dropbox/Linux/ArchLinux-Config/etc/default/
+
+
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/fstab
+sudo cp -Rv /etc/fstab /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/hostname
+sudo cp -Rv /etc/hostname /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/locale.gen
+sudo cp -Rv /etc/locale.gen /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/locale.conf
+sudo cp -Rv /etc/locale.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/mkinitcpio.conf
+sudo cp -Rv /etc/mkinitcpio.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/most.conf
+sudo cp -Rv /etc/most.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/passwd
+sudo cp -Rv /etc/passwd /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/passwd-
+sudo cp -Rv /etc/passwd- /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/sudoers
+sudo cp -Rv /etc/sudoers /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/timezone
+sudo cp -Rv /etc/timezone /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/vconsole.conf
+sudo cp -Rv /etc/vconsole.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/hosts
+sudo cp -Rv /etc/hosts /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/pacman.conf
+sudo cp -Rv /etc/pacman.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/pdnsd.conf
+sudo cp -Rv /etc/pdnsd.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/pdnsd-tor.conf
+sudo cp -Rv /etc/pdnsd-tor.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/polipo
+#sudo cp -Rv /etc/polipo /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/tor
+#sudo cp -Rv /etc/tor /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/slim.conf
+sudo cp -Rv /etc/slim.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/slimlock.conf
+sudo cp -Rv /etc/slimlock.conf /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/etc/yaourtrc
+sudo cp -Rv /etc/yaourtrc /media/Data/Dropbox/Linux/ArchLinux-Config/etc/
+
+
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.abook
+cp -Rv $HOME/.abook /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.aMule
+cp -Rv $HOME/.aMule /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.colors
+cp -Rv $HOME/.colors /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.colors/Vim/colored.vim
+sudo cp -Rv /usr/share/vim/vim73/colors/colored.vim /media/Data/Dropbox/Linux/ArchLinux-Config/home/.colors/Vim/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/awesome
+cp -Rv $HOME/.config/awesome /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/chromium/ 
+#cp -Rv $HOME/.config/chromium /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/dfc
+cp -Rv $HOME/.config/dfc /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/feh
+cp -Rv $HOME/.config/feh /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/geany
+cp -Rv $HOME/.config/geany /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/gtk-2.0
+cp -Rv $HOME/.config/gtk-2.0 /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/gtk-3.0
+cp -Rv $HOME/.config/gtk-3.0 /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/llpp.conf
+cp -Rv $HOME/.config/llpp.conf /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/htop
+cp -Rv $HOME/.config/htop /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/libreoffice
+#cp -Rv $HOME/.config/libreoffice /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/midori
+cp -Rv $HOME/.config/midori /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/nitrogen
+cp -Rv $HOME/.config/nitrogen /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/parcellite
+cp -Rv $HOME/.config/parcellite /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/pianobar
+cp -Rv $HOME/.config/pianobar /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/pithos.ini
+cp -Rv $HOME/.config/pithos.ini /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/user-dirs.dirs
+#cp -Rv $HOME/.config/user-dirs.dirs /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/user-dirs.locale
+#cp -Rv $HOME/.config/user-dirs.locale /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/pychess
+cp -Rv $HOME/.config/pychess /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/ranger
+cp -Rv $HOME/.config/ranger /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/ranger/awesome.py
+sudo cp -Rv /usr/lib/python3.3/site-packages/ranger/colorschemes/awesome.py /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/ranger/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/spacefm
+#cp -Rv $HOME/.config/spacefm /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/spacefm_root
+#sudo cp -Rv /root/.config/spacefm /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/spacefm_root
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/SpeedCrunch
+cp -Rv $HOME/.config/SpeedCrunch /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/turpial
+cp -Rv $HOME/.config/turpial /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/vlc
+cp -Rv $HOME/.config/vlc /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/youtube-viewer
+cp -Rv $HOME/.config/youtube-viewer /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/zathura
+cp -Rv $HOME/.config/zathura /media/Data/Dropbox/Linux/ArchLinux-Config/home/.config/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.elinks
+cp -Rv $HOME/.elinks /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.fehbg
+cp -Rv $HOME/.fehbg /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtk-bookmarks
+#cp -Rv $HOME/.gtk-bookmarks /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtk-bookmarks-root
+#sudo cp -Rv /root/.gtk-bookmarks /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtk-bookmarks-root
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtkrc-2.0
+cp -Rv $HOME/.gtkrc-2.0 /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtkrc-2.0-root
+sudo cp -Rv /root/.gtkrc-2.0 /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtkrc-2.0-root
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtkrc-2.0-qt
+cp -Rv $HOME/.gtkrc-2.0-qt /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtkrc-2.0-qt-root
+sudo cp -Rv /root/.gtkrc-2.0-qt /media/Data/Dropbox/Linux/ArchLinux-Config/home/.gtkrc-2.0-qt-root
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.LS_COLORS
+cp -Rv $HOME/.LS_COLORS /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.local
+cp -Rv $HOME/.local /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.lyrics
+cp -Rv $HOME/.lyrics /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.memo
+cp -Rv $HOME/.memo /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.motion
+cp -Rv $HOME/.motion /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+#sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mozilla/ 
+#cp -Rv $HOME/.mozilla /media/Data/Dropbox/Linux/ArchLinux-Config/home/ 
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpdconf
+cp -Rv $HOME/.mpdconf /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mplayer
+cp -Rv $HOME/.mplayer /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mutt
+cp -Rv $HOME/.mutt /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.muttrc
+cp -Rv $HOME/.muttrc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.ncmpcpp
+cp -Rv $HOME/.ncmpcpp /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.netrc
+cp -Rv $HOME/.netrc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.newsbeuter
+cp -Rv $HOME/.newsbeuter /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.rtorrent.rc
+cp -Rv $HOME/.rtorrent.rc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.purple
+cp -Rv $HOME/.purple /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.reminders
+cp -Rv $HOME/.reminders /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.scripts
+cp -Rv $HOME/.scripts /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.Skype
+cp -Rv $HOME/.Skype /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.ssh
+cp -Rv $HOME/.ssh /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.tmux.conf
+cp -Rv $HOME/.tmux.conf /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.vimperator
+cp -Rv $HOME/.vimperator /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.vimperatorrc
+cp -Rv $HOME/.vimperatorrc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.vimrc
+cp -Rv $HOME/.vimrc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.wyrdrc
+cp -Rv $HOME/.wyrdrc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.Xdefaults
+cp -Rv $HOME/.Xdefaults /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.Xdefaults_SMALL
+cp -Rv $HOME/.Xdefaults_SMALL /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.Xdefaults_BIG
+cp -Rv $HOME/.Xdefaults_BIG /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.xinitrc
+cp -Rv $HOME/.xinitrc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.weechat
+cp -Rv $HOME/.weechat /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.xchat2
+cp -Rv $HOME/.xchat2 /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.zprofile
+cp -Rv $HOME/.zprofile /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.zsh
+cp -Rv $HOME/.zsh /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.zshrc
+cp -Rv $HOME/.zshrc /media/Data/Dropbox/Linux/ArchLinux-Config/home/
+
+sudo rm -rfv /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd/*
+sudo cp -Rv /etc/mpd.conf /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd
+sudo cp -Rv /var/lib/mpd/playlists /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd
+sudo cp -Rv /var/lib/mpd/mpd.db /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd
+sudo cp -Rv /var/lib/mpd/mpdstate /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd
+sudo cp -Rv /var/log/mpd/mpd.log /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd
+sudo cp -Rv /var/run/mpd/mpd.pid /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd
+sudo cp -Rv /tmp/mpd.fifo /media/Data/Dropbox/Linux/ArchLinux-Config/home/.mpd
+sudo chown mpd:root /var/lib/mpd/playlists/
+sudo chown mpd:root /var/lib/mpd/playlists/*
+sudo chown mpd:root /var/lib/mpd/mpd.db
+sudo chown mpd:root /var/lib/mpd/mpdstate
+sudo chown mpd:root /var/log/mpd/mpd.log
+sudo chown mpd:root /var/run/mpd/mpd.pid
+sudo chown mpd:root /tmp/mpd.fifo

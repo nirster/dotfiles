@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo mkdir /media/Usb
+pmount /dev/sdb1 /media/Usb
+urxvt -e ranger /media/Usb

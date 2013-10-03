@@ -1,0 +1,11 @@
+set from = "user@yahoo.it"
+set realname = "Your Name"
+set hostname = "Your Hostname"
+set imap_user = "user@yahoo.it"
+set imap_pass = "Password"
+set folder = "imaps://imap.mail.yahoo.com:993"
+set spoolfile = "+INBOX"
+set record="imaps://imap.mail.yahoo.com/Sent"
+set smtp_url = "smtp://user@smtp.mail.yahoo.com:465/"
+set smtp_pass = "Password"
+set ssl_force_tls = yes
