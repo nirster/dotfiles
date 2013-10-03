@@ -1,0 +1,15 @@
+vo=vdpau
+ao = pulse
+channels = 2
+msgmodule = yes
+msgcolor = yes
+osd-level = 3
+
+srate = 48000
+slang = en
+ass-force-style = FontName=Arial,Default.Bold=0
+ass-hinting = light
+autosub  
+autosub-match = all
+sub-text-font-size=80
+softvol = no
