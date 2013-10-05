@@ -199,6 +199,7 @@ alias mount-iso='sudo mount -o loop'
 alias systemctl='sudo systemctl'
 alias scrot='cd ~/shots && scrot'
 alias goodnight='sleep 60; monitor-off'
+alias seedbox='ssh nir@10.0.0.255'
 
 alias cfg='cd ~/.config'
 alias dmesg-f='dmesg -L -H -w'

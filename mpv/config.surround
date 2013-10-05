@@ -4,6 +4,7 @@ channels = 6
 msgmodule = yes
 msgcolor = yes
 osd-level = 3
+quiet
 
 srate = 48000
 slang = en
