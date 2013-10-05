@@ -1,0 +1,2 @@
+#!/bin/bash
+xrandr --output DVI-I-3 --off

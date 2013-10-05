@@ -1,0 +1,13 @@
+#! /bin/bash
+WALLPAPERS="/home/nir/pix/Wallpapers/rotate-new/"
+ALIST=( `ls -w1 $WALLPAPERS` )
+RANGE=${#ALIST[@]}
+let "number = $RANDOM"
+let LASTNUM="`cat $WALLPAPERS/.last` + $number"
+let "number = $LASTNUM % $RANGE"
+echo $number > $WALLPAPERS/.last
+let "number2 = $RANDOM"
+let LASTNUM="`cat $WALLPAPERS/.last` + $number2"
+let "number2 = $LASTNUM % $RANGE"
+echo $number2 > $WALLPAPERS/.last
+imlibsetroot -x 0 -s $WALLPAPERS/${ALIST[$number]} -x 1 -s $WALLPAPERS/${ALIST[$number2]}

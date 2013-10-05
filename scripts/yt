@@ -1,0 +1,3 @@
+#!/bin/bash
+# Play online video from clipboard
+mpv "$(xclip -o)"

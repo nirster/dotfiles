@@ -1,0 +1,4 @@
+#!/bin/bash
+pacmd set-card-profile 1 "output:analog-stereo"
+notify-send "Stereo Mode"
+ln -sf ~/.mpv/config.stereo ~/.mpv/config

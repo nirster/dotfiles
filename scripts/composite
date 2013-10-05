@@ -1,0 +1,10 @@
+#!/bin/bash
+# disable or enable compositing
+pgrep compton 2>&1 > /dev/null
+if [ $? == 0 ]; then
+    killall compton
+    notify-send "Composite disabled"
+else
+    compton --backend glx --paint-on-overlay --vsync opengl-swc > /dev/null &
+    notify-send "Composite enabled"
+fi

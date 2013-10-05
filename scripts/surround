@@ -1,0 +1,4 @@
+#!/bin/bash
+pacmd set-card-profile 1 "output:analog-surround-51"
+notify-send "Surround Mode"
+ln -sf ~/.mpv/config.surround ~/.mpv/config

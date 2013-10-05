@@ -1,0 +1,2 @@
+#!/bin/sh
+ctags -L --c-kinds=+defgpstux --fields=iaSt --extra=+qf $(find . -name \*.[ch])

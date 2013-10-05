@@ -1,0 +1,9 @@
+#!/bin/bash
+echo Current IP $(curl -s http://checkip.dyndns.org/ | grep -o "[[:digit:].]\+")
+echo "Connecting to usvpn..."
+sudo pon usvpn
+echo "Removing local gateway..."
+sleep 3 && sudo ip route delete default
+echo "Activating remote gateway..."
+sudo ip route add default dev ppp0
+echo Current IP $(curl -s http://checkip.dyndns.org/ | grep -o "[[:digit:].]\+")

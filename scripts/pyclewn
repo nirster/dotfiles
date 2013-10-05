@@ -1,0 +1,8 @@
+#!/usr/bin/python2
+
+import sys
+sys.path.append('/home/nir/lib/python')
+
+
+import clewn.vim as vim
+vim.main()

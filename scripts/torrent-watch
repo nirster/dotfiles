@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~/Downloads/torrents/
+inotifywait -q -m -e close_write,moved_to . --format %f --exclude '\.(crdownload)' |
+while read filename ; do
+ sleep 2 && echo "put $filename ; exit" | lftp torrent
+done

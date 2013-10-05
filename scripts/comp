@@ -1,0 +1,3 @@
+#!/bin/bash
+compton --backend glx --vsync opengl --paint-on-overlay &
+

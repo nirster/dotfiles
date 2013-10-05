@@ -1,0 +1,11 @@
+#!/bin/sh
+
+tmux has-session -t chat
+if [ $? != 0 ]
+then
+        tmux new-session -s chat -n weechat -d 2>&1
+        tmux send-keys -t chat 'weechat-curses' C-m
+        tmux attach -t chat
+else
+        tmux attach -t chat
+fi

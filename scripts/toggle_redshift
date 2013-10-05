@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -a /home/nir/scripts/current_redshift ]
+then
+        rm /home/nir/scripts/current_redshift && killall redshift
+else
+        touch /home/nir/scripts/current_redshift && sh /home/nir/scripts/dim-screen
+fi

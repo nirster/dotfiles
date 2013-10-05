@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sh /home/nir/scripts/vbox-modules-load && virtualbox --startvm "win7"

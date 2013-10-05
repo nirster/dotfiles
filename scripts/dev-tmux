@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# development environment
+tmux has-session -t dev 2> /dev/null
+if [ $? != 0 ]
+then
+        tmux new-session -s dev -n vim -d
+        tmux send-keys -t dev 'cd ~/work/code' C-m
+        tmux send-keys -t dev 'ranger' C-m
+        tmux split-window -h -t dev
+        tmux send-keys -t dev:1.2 'cd ~/work/code && clear' C-m
+        tmux split-window -v -t dev
+        tmux send-keys -t dev:1.3 'cd ~/work/code && clear' C-m
+        tmux new-window -n scripts -t dev
+        tmux send-keys -t dev:2 'cd ~/scripts && ranger' C-m
+        tmux new-window -n docs -t dev
+        tmux send-key -t dev:3 'cd ~/docs && ranger' C-m
+        tmux select-window -t dev:1
+        tmux select-pane -t dev:1.1
+        tmux attach -t dev
+else
+        tmux attach -t dev
+fi
+

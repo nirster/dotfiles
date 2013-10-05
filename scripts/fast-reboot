@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo kexec -l /boot/vmlinuz-linux-ck --initrd=/boot/initramfs-linux-ck.img
+--reuse-cmdline

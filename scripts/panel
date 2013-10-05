@@ -1,0 +1,9 @@
+#! /bin/sh
+
+bspc control --put-status
+xtitle -sf 'T%s' > "$PANEL_FIFO" &
+clock -sf 'S%a %H:%M' > "$PANEL_FIFO" &
+
+cat "$PANEL_FIFO" | /home/nir/scripts/panel_bar | /home/nir/scripts/bar_left &
+cat "$PANEL_FIFO" | /home/nir/scripts/panel_bar | /home/nir/scripts/bar_right &
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Unloading VirtualBox Modules..."
+sudo rmmod vboxpci
+sudo rmmod vboxnetflt
+sudo rmmod vboxnetadp
+sudo rmmod vboxdrv
+echo "Done!"

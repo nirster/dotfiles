@@ -1,0 +1,3 @@
+#!/bin/sh
+ID=$(pidof $1)
+reptyr $ID

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+tmux has-session -t music
+if [ $? != 0 ]; then
+    tmux new-session -s music -n cmus -d 2>&1 > /dev/null
+    tmux send-keys -t music 'cd ~/Music && cmus' C-m
+fi    

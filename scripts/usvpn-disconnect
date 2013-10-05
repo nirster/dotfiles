@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Turning off vpn connecting..."
+sudo poff usvpn
+echo "Removing vpn gateway..."
+sudo ip route del default
+echo "Adding local router as gateway..."
+sudo route add default gw 10.0.0.139
+echo Current IP $(curl -s http://checkip.dyndns.org/ | grep -o "[[:digit:].]\+")
